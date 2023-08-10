@@ -44,7 +44,7 @@ const UserProfile = () => {
               <Avatar
                 alt={userData?.login}
                 src={userData?.avatar_url}
-                sx={{ mb: 1.2, width: "60px", height: "60px" }}
+                sx={{ mb: 1.2, width: "80px", height: "80px" }}
               />
             }
             title={userData?.login}

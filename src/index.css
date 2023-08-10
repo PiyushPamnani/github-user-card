@@ -63,7 +63,9 @@
 
 @media screen and (max-width: 600px) {
   .glassmorphism {
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
   }
 
   .search-input {
